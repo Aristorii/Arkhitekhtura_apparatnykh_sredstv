@@ -1,7 +1,6 @@
 meaning_ABC = [(0,0,0), (0,0,1),(0,1,0),(0,1,1),(1,0,0),(1,0,1),(1,1,0),(1,1,1)]
 meaning_ABC_TF = [(False,False,False), (False,False,True),(False,True,False),(False,True,True),(True,False,False),(True,False,True),(True,True,False),(True,True,True)]
 
-print("--- ЧАСТЬ 1: Числа (0 и 1) ---")
 print("A | B | C | №1 | №2 | №3")
 print("-" * 23)
 for A,B,C in (meaning_ABC):
